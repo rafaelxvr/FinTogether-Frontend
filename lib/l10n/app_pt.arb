@@ -1,0 +1,835 @@
+{
+  "@@locale": "pt",
+
+  "appTitle": "FinTogether",
+  "appSlogan": "Gerencie suas finanças juntos",
+  "sharedFinancialManagement": "Gestão financeira compartilhada",
+
+  "cancel": "Cancelar",
+  "confirm": "Confirmar",
+  "delete": "Excluir",
+  "save": "Salvar",
+  "retry": "Tentar Novamente",
+  "loading": "Carregando...",
+  "error": "Erro",
+  "success": "Sucesso",
+  "noData": "Sem dados",
+  "close": "Fechar",
+  "create": "Criar",
+  "update": "Atualizar",
+  "required": "Obrigatório",
+  "manage": "Gerenciar",
+  "refresh": "Atualizar",
+  "submit": "Enviar",
+  "done": "Concluído",
+  "yes": "Sim",
+  "no": "Não",
+  "ok": "OK",
+  "back": "Voltar",
+  "search": "Buscar",
+  "filters": "Filtros",
+  "total": "Total",
+  "none": "Nenhum",
+  "notSet": "Não definido",
+  "set": "Definido",
+  "from": "De",
+  "to": "Para",
+  "status": "Status",
+  "details": "Detalhes",
+  "comingSoon": "Em breve",
+  "today": "Hoje",
+  "archived": "ARQUIVADO",
+  "owner": "Proprietário",
+  "member": "Membro",
+  "viewer": "Visualizador",
+  "personal": "Pessoal",
+  "shared": "Compartilhado",
+
+  "actionCannotBeUndone": "Esta ação não pode ser desfeita.",
+  "areYouSure": "Tem certeza?",
+  "nResultsFound": "{count}{extra} resultados",
+  "@nResultsFound": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "extra": {"type": "String"}
+    }
+  },
+  "featureComingSoon": "Funcionalidade de {feature} em breve",
+  "@featureComingSoon": {
+    "placeholders": {
+      "feature": {"type": "String"}
+    }
+  },
+  "errorWithMessage": "Erro: {message}",
+  "@errorWithMessage": {
+    "placeholders": {
+      "message": {"type": "String"}
+    }
+  },
+
+  "login": "Entrar",
+  "register": "Cadastrar",
+  "logout": "Sair",
+  "logoutConfirm": "Tem certeza que deseja sair?",
+  "welcomeBack": "Bem-vindo de volta,",
+  "welcomeBackTitle": "Bem-vindo de Volta",
+  "signInToContinue": "Entre para continuar",
+  "forgotPassword": "Esqueceu a senha?",
+  "forgotPasswordTitle": "Esqueceu a Senha",
+  "email": "E-mail",
+  "password": "Senha",
+  "name": "Nome",
+  "fullName": "Nome Completo",
+  "createAccountTitle": "Criar Conta",
+  "signUpToGetStarted": "Cadastre-se para começar",
+  "enterYourEmail": "Digite seu e-mail",
+  "enterYourPassword": "Digite sua senha",
+  "enterYourFullName": "Digite seu nome completo",
+  "confirmPassword": "Confirmar Senha",
+  "reEnterPassword": "Digite a senha novamente",
+  "emailRequired": "E-mail é obrigatório",
+  "invalidEmailFormat": "Formato de e-mail inválido",
+  "pleaseEnterValidEmail": "Digite um e-mail válido",
+  "passwordRequired": "Senha é obrigatória",
+  "passwordMinLength": "A senha deve ter pelo menos 6 caracteres",
+  "nameRequired": "Nome é obrigatório",
+  "nameMinLength": "O nome deve ter pelo menos 2 caracteres",
+  "pleaseConfirmPassword": "Por favor confirme sua senha",
+  "passwordsDoNotMatch": "As senhas não coincidem",
+  "alreadyHaveAccount": "Já tem uma conta? ",
+  "backToLogin": "Voltar ao Login",
+  "resetYourPassword": "Redefinir Sua Senha",
+  "enterEmailResetInstructions": "Digite seu e-mail e enviaremos instruções para redefinir sua senha.",
+  "checkYourEmail": "Verifique Seu E-mail",
+  "resetEmailSentDescription": "Se uma conta com esse e-mail existir, enviamos instruções para redefinir sua senha.",
+  "resetLinkSentSnackbar": "Se uma conta existir, um link de redefinição será enviado para seu e-mail.",
+  "sendResetLink": "Enviar Link de Redefinição",
+  "tryAnotherEmail": "Tentar Outro E-mail",
+  "resetPassword": "Redefinir Senha",
+  "createNewPassword": "Criar Nova Senha",
+  "enterNewPasswordBelow": "Por favor, insira sua nova senha abaixo.",
+  "newPassword": "Nova Senha",
+  "passwordResetSuccess": "Senha redefinida com sucesso! Faça login com sua nova senha.",
+
+  "dashboard": "Dashboard",
+  "activeBudget": "Orçamento Ativo",
+  "noBudgetsYet": "Sem orçamentos ainda. Crie um para começar!",
+  "manageFinances": "Gerencie Suas Finanças",
+  "totalIncome": "Receita Total",
+  "totalExpense": "Despesa Total",
+  "netCashFlow": "Fluxo de Caixa Líquido",
+  "accountsBalance": "Saldo das Contas",
+  "period": "Período",
+  "savingsRate": "Taxa de Poupança",
+  "expenseRate": "Taxa de Gastos",
+  "cashFlowStatus": "Status do Fluxo",
+  "positive": "Positivo",
+  "negative": "Negativo",
+  "financialInsights": "Insights Financeiros",
+  "failedToLoadDashboard": "Erro ao carregar dashboard",
+  "loadDashboard": "Carregar Dashboard",
+  "cashflowTrendTitle": "Fluxo de Caixa (Últimos 6 Meses)",
+  "expensesByCategory": "Despesas por Categoria",
+  "dashboardAnalytics": "Dashboard Analytics",
+  "loadDataToView": "Carregue os dados para visualizar",
+  "viewActivity": "Ver atividade",
+  "financialOverview": "Visão financeira",
+  "noBudgetSelected": "Nenhum Orçamento Selecionado",
+  "pleaseCreateOrSelectBudget": "Por favor, crie ou selecione um orçamento primeiro.",
+  "summary": "Resumo",
+  "cashflow": "Fluxo de Caixa",
+  "periodLabel": "Período: {period}",
+  "@periodLabel": {
+    "placeholders": {
+      "period": {"type": "String"}
+    }
+  },
+
+  "transactions": "Transações",
+  "addTransaction": "Adicionar Transação",
+  "createTransaction": "Criar Transação",
+  "editTransaction": "Editar Transação",
+  "deleteTransaction": "Excluir Transação",
+  "deleteTransactionConfirm": "Excluir esta transação?",
+  "noTransactionsYet": "Sem transações ainda",
+  "type": "Tipo",
+  "amount": "Valor",
+  "date": "Data",
+  "description": "Descrição",
+  "descriptionOptional": "Descrição (Opcional)",
+  "income": "Receita",
+  "expense": "Despesa",
+  "transfer": "Transferência",
+  "transactionCreated": "Transação criada",
+  "transactionUpdated": "Transação atualizada",
+  "transactionDeleted": "Transação excluída",
+  "undoDelete": "Desfazer",
+  "invalidNumber": "Número inválido",
+  "mustBeGreaterThanZero": "Deve ser > 0",
+  "quickEntry": "Entrada Rápida",
+  "installments": "Parcelas",
+  "quickAddExpense": "Adicionar Despesa Rápida",
+  "expenseAddedSuccessfully": "Despesa adicionada com sucesso",
+  "selectBudgetFirst": "Selecione um orçamento primeiro.",
+  "newTransaction": "Nova Transação",
+  "saveAsTemplate": "Salvar como modelo",
+  "notes": "Notas",
+  "notesOptional": "Notas (Opcional)",
+  "reuseThisPatternLater": "Reutilizar este padrão depois",
+  "templates": "Modelos",
+  "templateName": "Nome do Modelo",
+  "enterTemplateName": "Digite o nome do modelo",
+  "searchTransactions": "Buscar transações...",
+  "closeSearch": "Fechar Busca",
+  "noResultsFor": "Sem resultados para \"{query}\"",
+  "@noResultsFor": {
+    "placeholders": {
+      "query": {"type": "String"}
+    }
+  },
+  "noResultsMatchFilters": "Nenhum resultado corresponde aos filtros aplicados",
+  "recordNewTransaction": "Registrar uma nova transação",
+  "transactionHistory": "Histórico de Transações",
+  "viewAllTransactions": "Ver todas as transações",
+  "noRecentTransactions": "Sem transações recentes",
+  "transactionSummary": "Resumo de Transações",
+
+  "accounts": "Contas",
+  "trackAccounts": "Acompanhar contas",
+  "createAccount": "Criar Conta",
+  "editAccount": "Editar Conta",
+  "totalBalance": "Saldo Total",
+  "activeAccounts": "Contas Ativas",
+  "inactiveAccounts": "Contas Inativas",
+  "noAccountsYet": "Sem Contas Ainda",
+  "addAccount": "Adicionar Conta",
+  "deleteAccount": "Excluir Conta",
+  "createFirstAccountDescription": "Crie sua primeira conta para começar\na acompanhar suas finanças",
+  "accountName": "Nome da Conta",
+  "accountNameHint": "ex.: Conta Corrente Principal",
+  "accountNameRequired": "Nome da conta é obrigatório",
+  "accountType": "Tipo de Conta",
+  "currency": "Moeda",
+  "currencyRequired": "Moeda é obrigatória",
+  "currencyMustBe3Letters": "A moeda deve ter 3 letras (ex.: BRL)",
+  "openingBalance": "Saldo Inicial",
+  "openingBalanceRequired": "Saldo inicial é obrigatório",
+  "currentBalance": "Saldo Atual",
+  "balanceChange": "Variação do Saldo",
+  "accountInformation": "Informações da Conta",
+  "accountCreatedSuccessfully": "Conta criada com sucesso",
+  "accountUpdatedSuccessfully": "Conta atualizada com sucesso",
+  "accountDeletedSuccessfully": "Conta excluída com sucesso",
+  "accountDeactivated": "Conta desativada",
+  "accountActivated": "Conta ativada",
+  "accountNotFound": "Conta não encontrada",
+  "deactivate": "Desativar",
+  "activate": "Ativar",
+  "accountDetails": "Detalhes da Conta",
+  "fromOpening": "desde abertura",
+  "inactive2ActiveAccounts": "Você precisa de pelo menos 2 contas ativas para fazer uma transferência",
+
+  "transferMoney": "Transferir Dinheiro",
+  "fromAccount": "Conta de Origem",
+  "toAccount": "Conta de Destino",
+  "selectSourceAccount": "Selecione a conta de origem",
+  "selectDestinationAccount": "Selecione a conta de destino",
+  "pleaseSelectSourceAccount": "Selecione uma conta de origem",
+  "pleaseSelectDestinationAccount": "Selecione uma conta de destino",
+  "cannotTransferSameAccount": "Não é possível transferir para a mesma conta",
+  "amountRequired": "Valor é obrigatório",
+  "amountMustBePositive": "O valor deve ser maior que zero",
+  "transferSummary": "Resumo da Transferência",
+  "newBalance": "Novo saldo: {currency} {amount}",
+  "@newBalance": {
+    "placeholders": {
+      "currency": {"type": "String"},
+      "amount": {"type": "String"}
+    }
+  },
+  "transferCompletedSuccessfully": "Transferência concluída com sucesso",
+  "transferToAnotherAccount": "Transferir para outra conta",
+
+  "categories": "Categorias",
+  "organizeExpenses": "Organize despesas",
+  "createCategory": "Criar Categoria",
+  "editCategory": "Editar Categoria",
+  "activeCategories": "Categorias Ativas",
+  "archivedCategories": "Categorias Arquivadas",
+  "addCategory": "Adicionar Categoria",
+  "deleteCategory": "Excluir Categoria",
+  "categoryName": "Nome da Categoria",
+  "categoryNameHint": "ex.: Alimentação, Salário",
+  "categoryNameRequired": "Nome da categoria é obrigatório",
+  "categoryType": "Tipo de Categoria",
+  "parentCategoryOptional": "Categoria Pai (Opcional)",
+  "noneRootCategory": "Nenhuma (Categoria raiz)",
+  "iconOptional": "Ícone (Opcional)",
+  "iconHint": "ex.: emoji de ícone",
+  "colorOptional": "Cor (Opcional)",
+  "colorHint": "#FF0000 ou FF0000",
+  "colorHexFormatError": "A cor deve estar em formato hex (ex.: #FF0000)",
+  "budgetLimitOptional": "Limite de Orçamento (Opcional)",
+  "limitCannotBeNegative": "O limite não pode ser negativo",
+  "categoryCreatedSuccessfully": "Categoria criada com sucesso",
+  "categoryUpdatedSuccessfully": "Categoria atualizada com sucesso",
+  "categoryDeletedSuccessfully": "Categoria excluída com sucesso",
+  "categoryArchived": "Categoria arquivada",
+  "categoryUnarchived": "Categoria desarquivada",
+  "categoryNotFound": "Categoria não encontrada",
+  "categoryDetails": "Detalhes da Categoria",
+  "categoryInformation": "Informações da Categoria",
+  "structure": "Estrutura",
+  "rootCategory": "Categoria Raiz",
+  "subcategory": "Subcategoria",
+  "hasSubcategories": "Tem Subcategorias",
+  "subcategoryOf": "Subcategoria de {name}",
+  "@subcategoryOf": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "addSubcategory": "Adicionar Subcategoria",
+  "subcategories": "Subcategorias",
+  "nSubcategories": "Subcategorias ({count})",
+  "@nSubcategories": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "budgetLimit": "Limite de Orçamento",
+  "monthlyLimit": "Limite Mensal",
+  "spentPercent": "{currency} {amount} gasto ({percent}%)",
+  "@spentPercent": {
+    "placeholders": {
+      "currency": {"type": "String"},
+      "amount": {"type": "String"},
+      "percent": {"type": "String"}
+    }
+  },
+  "archive": "Arquivar",
+  "unarchive": "Desarquivar",
+  "noCategoriesForType": "Sem Categorias de {type}",
+  "@noCategoriesForType": {
+    "placeholders": {
+      "type": {"type": "String"}
+    }
+  },
+  "createFirstCategoryDescription": "Crie sua primeira categoria de {type}\npara começar",
+  "@createFirstCategoryDescription": {
+    "placeholders": {
+      "type": {"type": "String"}
+    }
+  },
+  "warningHasSubcategories": "Atenção: Esta categoria possui subcategorias!",
+  "categorySpendingAnalysis": "Análise de gastos por categoria",
+  "viewReports": "Ver Relatórios",
+  "viewTransactions": "Ver Transações",
+  "createTransactionInCategory": "Criar transação nesta categoria",
+
+  "creditCards": "Cartões de Crédito",
+  "manageCards": "Gerenciar cartões",
+  "createCreditCard": "Criar Cartão",
+  "editCreditCard": "Editar Cartão de Crédito",
+  "closesDay": "Dia de Fechamento",
+  "dueDay": "Dia de Vencimento",
+  "active": "Ativo",
+  "inactive": "Inativo",
+  "addCard": "Adicionar Cartão",
+  "addCreditCard": "Adicionar Cartão de Crédito",
+  "activeCards": "Cartões Ativos",
+  "inactiveCards": "Cartões Inativos",
+  "totalCards": "Total de Cartões",
+  "creditCardCosts": "Custos dos Cartões",
+  "grandTotal": "Total Geral",
+  "costTrend": "Tendência de Custos",
+  "average": "Média",
+  "noCreditCardsYet": "Sem Cartões de Crédito Ainda",
+  "addFirstCreditCardDescription": "Adicione seu primeiro cartão de crédito\npara acompanhar seus gastos no crédito",
+  "cardName": "Nome do Cartão",
+  "cardNameHint": "ex.: Meu Cartão Visa",
+  "cardNameRequired": "Nome do cartão é obrigatório",
+  "issuerOptional": "Emissor (Opcional)",
+  "issuerHint": "ex.: Visa, Mastercard, Amex",
+  "lastFourDigitsOptional": "Últimos 4 Dígitos (Opcional)",
+  "mustBeExactly4Digits": "Deve ter exatamente 4 dígitos",
+  "statementCloseDayRequired": "Dia de fechamento é obrigatório",
+  "dueDayRequired": "Dia de vencimento é obrigatório",
+  "mustBeBetween1And31": "Deve ser entre 1 e 31",
+  "dayOfMonthStatementCloses": "Dia do mês em que a fatura fecha",
+  "dayOfMonthPaymentDue": "Dia do mês do vencimento",
+  "linkedPaymentAccountOptional": "Conta de Pagamento Vinculada (Opcional)",
+  "selectAnAccount": "Selecione uma conta",
+  "accountToPayBill": "Conta para pagar a fatura do cartão",
+  "deleteCreditCard": "Excluir Cartão de Crédito",
+  "hideInactive": "Ocultar inativos",
+  "showInactive": "Mostrar inativos",
+  "issuer": "Emissor",
+  "lastFour": "Últimos Quatro",
+  "statementClose": "Fechamento da Fatura",
+  "dueDate": "Vencimento",
+  "linkedAccount": "Conta Vinculada",
+  "dayN": "Dia {day}",
+  "@dayN": {
+    "placeholders": {
+      "day": {"type": "int"}
+    }
+  },
+
+  "invoices": "Faturas",
+  "invoiceHistory": "Histórico de Faturas",
+  "invoiceDetail": "Fatura",
+  "noInvoicesYet": "Sem Faturas Ainda",
+  "invoiceHistoryDescription": "O histórico de faturas aparecerá aqui\nassim que transações forem registradas.",
+  "noTransactionsForPeriod": "Nenhuma transação encontrada para este período de fatura.",
+  "noTransactions": "Sem Transações",
+  "selectMonthToView": "Selecione um mês para ver a fatura.",
+  "previousMonth": "Mês anterior",
+  "nextMonth": "Próximo mês",
+  "due": "Vence: {date}",
+  "@due": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "nTransactionsSuffix": "{count} transaç{suffix}",
+  "@nTransactionsSuffix": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "suffix": {"type": "String"}
+    }
+  },
+
+  "budgets": "Orçamentos",
+  "manageBudgets": "Gerenciar orçamentos",
+  "createBudget": "Criar Orçamento",
+  "editBudget": "Editar Orçamento",
+  "myBudgets": "Meus Orçamentos",
+  "newBudget": "Novo Orçamento",
+  "goToBudgets": "Ir para Orçamentos",
+  "deleteBudget": "Excluir Orçamento?",
+  "deleteBudgetTitle": "Excluir Orçamento",
+  "budgetDeleted": "Orçamento excluído",
+  "budgetDeletedSuccessfully": "Orçamento excluído com sucesso",
+  "budgetCreatedSuccessfully": "Orçamento criado com sucesso",
+  "budgetUpdatedSuccessfully": "Orçamento atualizado com sucesso",
+  "members": "Membros",
+  "noBudgetsEmptyTitle": "Sem Orçamentos Ainda",
+  "createFirstBudgetDescription": "Crie seu primeiro orçamento para começar\na acompanhar suas finanças",
+  "deleteConfirmWithName": "Tem certeza que deseja excluir \"{name}\"? Esta ação não pode ser desfeita.",
+  "@deleteConfirmWithName": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "budgetName": "Nome do Orçamento",
+  "budgetNameHint": "ex.: Orçamento Familiar",
+  "budgetNameRequired": "Nome do orçamento é obrigatório",
+  "budgetNameMinLength": "Nome do orçamento deve ter pelo menos 2 caracteres",
+  "budgetNameMaxLength": "Nome do orçamento não deve exceder 255 caracteres",
+  "budgetType": "Tipo de Orçamento",
+  "personalBudget": "Orçamento Pessoal",
+  "sharedBudget": "Orçamento Compartilhado",
+  "personalBudgetDescription": "Somente você terá acesso a este orçamento",
+  "sharedBudgetDescription": "Você pode convidar outros para colaborar neste orçamento",
+  "budgetDetails": "Detalhes do Orçamento",
+  "budgetNotFound": "Orçamento não encontrado",
+  "created": "Criado",
+  "lastUpdated": "Última Atualização",
+  "nMoreMembers": "+{count} {label} a mais",
+  "@nMoreMembers": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "label": {"type": "String"}
+    }
+  },
+  "quickActions": "Ações Rápidas",
+  "viewAccounts": "Ver Contas",
+  "manageYourAccounts": "Gerenciar suas contas",
+  "viewCategories": "Ver Categorias",
+  "manageYourCategories": "Gerenciar suas categorias",
+  "viewDashboard": "Ver Dashboard",
+  "statistics": "Estatísticas",
+  "cards": "Cartões",
+
+  "manageMembers": "Gerenciar Membros",
+  "addMember": "Adicionar Membro",
+  "membersInfoBanner": "Membros podem ver e editar dados do orçamento. Visualizadores só podem ver.",
+  "noMembersYet": "Sem membros ainda",
+  "addMembersDescription": "Adicione membros para colaborar neste orçamento",
+  "emailAddress": "Endereço de E-mail",
+  "emailAddressHint": "usuario@exemplo.com",
+  "invitationDescription": "O usuário receberá um convite para participar deste orçamento.",
+  "sendInvitation": "Enviar Convite",
+  "memberInvitationComingSoon": "Funcionalidade de convite de membro em breve",
+  "changeRole": "Alterar Função",
+  "memberRoleDescription": "Pode ver e editar dados do orçamento",
+  "viewerRoleDescription": "Pode apenas ver dados do orçamento",
+  "removeMember": "Remover",
+  "removeMemberTitle": "Remover Membro",
+  "removeMemberConfirm": "Tem certeza que deseja remover {name} deste orçamento?",
+  "@removeMemberConfirm": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "roleUpdated": "Função de {name} atualizada para {role}",
+  "@roleUpdated": {
+    "placeholders": {
+      "name": {"type": "String"},
+      "role": {"type": "String"}
+    }
+  },
+  "memberRemoved": "{name} removido do orçamento",
+  "@memberRemoved": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "joined": "Entrou em {date}",
+  "@joined": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+
+  "analytics": "Analytics",
+  "detailedInsights": "Insights detalhados",
+  "cashflowTrend": "Tendência de Fluxo de Caixa",
+  "categoryBreakdown": "Detalhamento por Categoria",
+  "recentTransactions": "Transações Recentes",
+  "viewAll": "Ver Tudo",
+
+  "monthComparison": "Comparação Mensal",
+  "lastMonth": "Mês Passado",
+  "thisMonth": "Este Mês",
+  "change": "Variação",
+
+  "memberSpending": "Gastos por Membro",
+  "memberIncome": "Receita por Membro",
+  "noIncomeData": "Sem dados de receita",
+  "incomeSources": "Fontes de Receita",
+  "incomeDistribution": "Distribuição de Receita",
+
+  "expenseForecast": "Previsão de Despesas",
+  "projectedExpense": "Despesa Projetada",
+  "dailyAverage": "Média Diária",
+  "daysElapsed": "Dias Passados",
+  "daysRemaining": "Dias Restantes",
+  "onTrackToSpend": "No ritmo para gastar {percentage}% {comparison} que o mês passado",
+  "@onTrackToSpend": {
+    "placeholders": {
+      "percentage": {"type": "String"},
+      "comparison": {"type": "String"}
+    }
+  },
+  "more": "Mais",
+  "less": "Menos",
+
+  "essentialBreakdown": "Essenciais vs Não Essenciais",
+  "essential": "Essencial",
+  "nonEssential": "Não Essencial",
+
+  "creditCardAlerts": "Alertas de Cartão",
+  "dueIn": "Vence em {days} dias",
+  "@dueIn": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "overdue": "Vencido",
+
+  "settings": "Configurações",
+  "appearance": "Aparência",
+  "theme": "Tema",
+  "system": "Sistema",
+  "light": "Claro",
+  "dark": "Escuro",
+  "accessibility": "Acessibilidade",
+  "reducedCognitiveLoad": "Reduzir Carga Cognitiva",
+  "reducedCognitiveLoadDescription": "Simplifica o dashboard escondendo gráficos",
+  "hapticFeedback": "Feedback Tátil",
+  "hapticFeedbackDescription": "Vibração em ações",
+  "focusMode": "Modo Foco",
+  "focusModeDescription": "Mostra uma seção por vez no dashboard",
+  "language": "Idioma",
+  "portuguese": "Português (BR)",
+  "english": "English",
+  "replayOnboarding": "Replay Introdução",
+  "onboardingWillShowNextLogin": "A introdução será exibida no próximo login",
+  "about": "Sobre",
+  "notifications": "Notificações",
+  "app": "App",
+
+  "onboardingWelcome": "Bem-vindo ao FinTogether",
+  "onboardingWelcomeDesc": "Gerencie suas finanças de forma colaborativa com quem você ama.",
+  "onboardingBudget": "Crie um Orçamento",
+  "onboardingBudgetDesc": "Orçamentos são o coração do app. Crie um para começar a acompanhar.",
+  "onboardingTrack": "Registre Despesas",
+  "onboardingTrackDesc": "Adicione transações rapidamente e veja para onde vai seu dinheiro.",
+  "onboardingShare": "Compartilhe com Parceiro",
+  "onboardingShareDesc": "Convide seu parceiro para gerenciar o orçamento juntos.",
+  "getStarted": "Começar",
+  "next": "Próximo",
+  "skip": "Pular",
+
+  "welcomeUser": "Bem-vindo de volta, {userName}",
+  "@welcomeUser": {
+    "placeholders": {
+      "userName": {"type": "String"}
+    }
+  },
+
+  "nTransactions": "{count} transações",
+  "@nTransactions": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "recurringTemplates": "Modelos Recorrentes",
+  "recurringExpenses": "Despesas Recorrentes",
+  "newTemplate": "Novo Modelo",
+  "editTemplate": "Editar Modelo",
+  "newRecurringExpense": "Nova Despesa Recorrente",
+  "createTemplate": "Criar Modelo",
+  "updateTemplate": "Atualizar Modelo",
+  "templateCreatedSuccessfully": "Modelo criado com sucesso",
+  "templateUpdatedSuccessfully": "Modelo atualizado com sucesso",
+  "noRecurringExpensesYet": "Sem despesas recorrentes ainda",
+  "createFirstRecurringDescription": "Crie seu primeiro modelo recorrente\npara automatizar transações regulares.",
+  "loadingRecurringExpenses": "Carregando despesas recorrentes...",
+  "fixed": "Fixo",
+  "startDate": "Data de Início",
+  "endDate": "Data Final",
+  "endDateOptional": "Data Final (opcional)",
+  "noEndDate": "Sem data final",
+  "markAsFixedExpense": "Marcar como Despesa Fixa",
+  "fixedExpenseDescription": "Despesas fixas são custos mensais essenciais",
+  "creating": "Criando...",
+  "updating": "Atualizando...",
+
+  "fixedExpenses": "Despesas Fixas",
+  "fixedMonthlyCosts": "Custos Fixos Mensais",
+  "totalMonthlyFixedCosts": "Total de Custos Fixos Mensais",
+  "noFixedExpenses": "Sem despesas fixas",
+  "markRecurringAsFixed": "Marque despesas recorrentes como \"Fixas\" para vê-las aqui.",
+  "nFixedExpenses": "{count} despesa{suffix} fixa{suffix}",
+  "@nFixedExpenses": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "suffix": {"type": "String"}
+    }
+  },
+  "loadingFixedExpenses": "Carregando despesas fixas...",
+
+  "installmentGroups": "Grupos de Parcelas",
+  "newInstallment": "Nova Parcela",
+  "createInstallment": "Criar Parcela",
+  "installmentCreatedSuccessfully": "Parcela criada com sucesso",
+  "installmentGroupDeleted": "Grupo de parcelas excluído",
+  "installmentProgress": "Progresso da Parcela",
+  "deleteInstallmentGroup": "Excluir Grupo de Parcelas",
+  "deleteInstallmentGroupConfirm": "Tem certeza que deseja excluir \"{name}\" e todas as suas {count} transações?",
+  "@deleteInstallmentGroupConfirm": {
+    "placeholders": {
+      "name": {"type": "String"},
+      "count": {"type": "int"}
+    }
+  },
+  "totalAmount": "Valor Total",
+  "numberOfInstallments": "Número de Parcelas",
+  "nInstallments": "{count} parcelas",
+  "@nInstallments": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "interestRate": "Taxa de Juros (por parcela)",
+  "interestLabel": "Juros: {rate}%",
+  "@interestLabel": {
+    "placeholders": {
+      "rate": {"type": "String"}
+    }
+  },
+  "mustBeBetween0And100": "Deve ser entre 0 e 100",
+  "paid": "Pago",
+  "remaining": "Restante",
+  "installmentN": "Parcela {number}",
+  "@installmentN": {
+    "placeholders": {
+      "number": {"type": "String"}
+    }
+  },
+  "noInstallmentsYet": "Sem parcelas ainda",
+  "createFirstInstallmentDescription": "Crie sua primeira parcela para acompanhar\npagamentos recorrentes facilmente.",
+  "loadingInstallments": "Carregando parcelas...",
+  "loadingInstallmentProgress": "Carregando progresso da parcela...",
+  "perMonth": "{amount}/mês",
+  "@perMonth": {
+    "placeholders": {
+      "amount": {"type": "String"}
+    }
+  },
+
+  "savingsGoals": "Metas de Economia",
+  "newGoal": "Nova Meta",
+  "createGoal": "Criar Meta",
+  "updateGoal": "Atualizar Meta",
+  "editSavingsGoal": "Editar Meta de Economia",
+  "createSavingsGoal": "Criar Meta de Economia",
+  "savingsGoalCreated": "Meta de economia criada!",
+  "savingsGoalUpdated": "Meta de economia atualizada!",
+  "savingsGoalDeleted": "Meta de economia excluída",
+  "deleteSavingsGoal": "Excluir Meta de Economia",
+  "noSavingsGoalsYet": "Sem Metas de Economia Ainda",
+  "createFirstSavingsDescription": "Crie sua primeira meta de economia\npara acompanhar seu progresso",
+  "noActiveGoals": "Sem metas ativas",
+  "noCompletedGoalsYet": "Sem metas concluídas ainda",
+  "completed": "Concluído",
+  "completedExclamation": "Concluído!",
+  "totalSaved": "Total Economizado",
+  "progress": "Progresso",
+  "goals": "Metas",
+  "current": "Atual",
+  "target": "Meta",
+  "targetAmount": "Valor Alvo",
+  "targetAmountRequired": "Valor alvo é obrigatório",
+  "enterValidPositiveAmount": "Digite um valor positivo válido",
+  "remainingAmount": "Restante: {amount}",
+  "@remainingAmount": {
+    "placeholders": {
+      "amount": {"type": "String"}
+    }
+  },
+  "contribute": "Contribuir",
+  "withdraw": "Retirar",
+  "contributionHistory": "Histórico de Contribuições",
+  "noContributionsYet": "Sem contribuições ainda",
+  "deadline": "Prazo",
+  "deadlineOptional": "Prazo (opcional)",
+  "noDeadlineSet": "Sem prazo definido",
+  "daysLeft": "{days} dias restantes",
+  "@daysLeft": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "goalNotFound": "Meta não encontrada",
+
+  "merchants": "Comerciantes",
+  "addMerchant": "Adicionar Comerciante",
+  "createMerchant": "Criar Comerciante",
+  "editMerchant": "Editar Comerciante",
+  "merchantName": "Nome do Comerciante",
+  "merchantNameHint": "ex.: Amazon, Walmart",
+  "merchantNameRequired": "Nome do comerciante é obrigatório",
+  "displayNameOptional": "Nome de Exibição (Opcional)",
+  "displayNameHint": "ex.: Amazon Marketplace",
+  "merchantCreatedSuccessfully": "Comerciante criado com sucesso",
+  "merchantUpdatedSuccessfully": "Comerciante atualizado com sucesso",
+  "deleteMerchant": "Excluir Comerciante",
+  "merchantDetails": "Detalhes do Comerciante",
+  "merchantInformation": "Informações do Comerciante",
+  "merchantNotFound": "Comerciante não encontrado",
+  "noMerchantsYet": "Sem Comerciantes Ainda",
+  "addMerchantsDescription": "Adicione comerciantes para acompanhar\nonde você gasta seu dinheiro",
+  "activeMerchants": "Comerciantes Ativos",
+  "archivedMerchants": "Comerciantes Arquivados",
+  "searchMerchants": "Buscar comerciantes...",
+  "defaultCategory": "Categoria Padrão",
+
+  "budgetPlan": "Plano de Orçamento",
+  "allocateBudgetPerCategory": "Alocar orçamento por categoria",
+  "editAllocations": "Editar Alocações",
+  "saveAllocations": "Salvar Alocações",
+  "copyLastMonth": "Copiar Mês Anterior",
+  "totalAllocated": "Total Alocado",
+  "spent": "Gasto",
+  "percentUsed": "{percent}% usado",
+  "@percentUsed": {
+    "placeholders": {
+      "percent": {"type": "String"}
+    }
+  },
+  "noAllocations": "Sem Alocações",
+  "noAllocationsDescription": "Sem alocações definidas para este mês.\nToque em + para criar seu plano de orçamento.",
+  "allocationsSavedSuccessfully": "Alocações salvas com sucesso",
+  "addAtLeastOneAllocation": "Adicione pelo menos uma alocação",
+  "categoryLimit": "Limite da categoria: R$ {amount}",
+  "@categoryLimit": {
+    "placeholders": {
+      "amount": {"type": "String"}
+    }
+  },
+  "selectMonthToViewBudgetPlan": "Selecione um mês para ver seu plano de orçamento.",
+
+  "balances": "Saldos",
+  "settleUp": "Acertar Contas",
+  "allSettledUp": "Tudo acertado!",
+  "noOutstandingBalances": "Sem saldos pendentes entre membros",
+  "splitSettledSuccessfully": "Divisão acertada com sucesso",
+  "markAsSettled": "Marcar como Acertado",
+  "settling": "Acertando...",
+  "settlePaymentNote": "Isto marca a dívida como acertada. O pagamento real\né registrado fora do sistema.",
+  "balanceDataNotAvailable": "Dados de saldo não disponíveis",
+  "lastSynced": "Última sincronização: {time}",
+  "@lastSynced": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "justNow": "agora mesmo",
+  "nMinAgo": "{minutes} min atrás",
+  "@nMinAgo": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "nHrAgo": "{hours} h atrás",
+  "@nHrAgo": {
+    "placeholders": {
+      "hours": {"type": "int"}
+    }
+  },
+
+  "morePage": "Mais",
+  "submitAll": "Enviar Tudo",
+  "submitBatch": "Enviar Lote",
+  "submitBatchConfirm": "Enviar {count} transações totalizando {total}?",
+  "@submitBatchConfirm": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "total": {"type": "String"}
+    }
+  },
+  "submittingTransactions": "Enviando {count} transações...",
+  "@submittingTransactions": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "nTransactionsCreated": "{count} transações criadas",
+  "@nTransactionsCreated": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "nTransactionsFailed": "{count} transações falharam",
+  "@nTransactionsFailed": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "enterAmountFirst": "Digite um valor primeiro",
+  "itemRemoved": "Item removido",
+  "tapCategoryToAdd": "Toque em uma categoria para adicionar",
+  "addWithoutCategory": "Adicionar sem categoria",
+
+  "nameMinLengthGeneric": "O nome deve ter pelo menos 2 caracteres",
+  "nameMaxLengthGeneric": "O nome não deve exceder 255 caracteres",
+  "descriptionRequired": "Descrição é obrigatória",
+
+  "createdAt": "Criado Em",
+  "deleteBudgetConfirm": "Tem certeza que deseja excluir este orçamento? Esta ação não pode ser desfeita."
+}

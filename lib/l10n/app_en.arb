@@ -1,0 +1,835 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "FinTogether",
+  "appSlogan": "Manage your finances together",
+  "sharedFinancialManagement": "Shared financial management",
+
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "delete": "Delete",
+  "save": "Save",
+  "retry": "Retry",
+  "loading": "Loading...",
+  "error": "Error",
+  "success": "Success",
+  "noData": "No data",
+  "close": "Close",
+  "create": "Create",
+  "update": "Update",
+  "required": "Required",
+  "manage": "Manage",
+  "refresh": "Refresh",
+  "submit": "Submit",
+  "done": "Done",
+  "yes": "Yes",
+  "no": "No",
+  "ok": "OK",
+  "back": "Back",
+  "search": "Search",
+  "filters": "Filters",
+  "total": "Total",
+  "none": "None",
+  "notSet": "Not set",
+  "set": "Set",
+  "from": "From",
+  "to": "To",
+  "status": "Status",
+  "details": "Details",
+  "comingSoon": "Coming soon",
+  "today": "Today",
+  "archived": "ARCHIVED",
+  "owner": "Owner",
+  "member": "Member",
+  "viewer": "Viewer",
+  "personal": "Personal",
+  "shared": "Shared",
+
+  "actionCannotBeUndone": "This action cannot be undone.",
+  "areYouSure": "Are you sure?",
+  "nResultsFound": "{count}{extra} results",
+  "@nResultsFound": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "extra": {"type": "String"}
+    }
+  },
+  "featureComingSoon": "{feature} feature coming soon",
+  "@featureComingSoon": {
+    "placeholders": {
+      "feature": {"type": "String"}
+    }
+  },
+  "errorWithMessage": "Error: {message}",
+  "@errorWithMessage": {
+    "placeholders": {
+      "message": {"type": "String"}
+    }
+  },
+
+  "login": "Login",
+  "register": "Register",
+  "logout": "Logout",
+  "logoutConfirm": "Are you sure you want to logout?",
+  "welcomeBack": "Welcome back,",
+  "welcomeBackTitle": "Welcome Back",
+  "signInToContinue": "Sign in to continue",
+  "forgotPassword": "Forgot password?",
+  "forgotPasswordTitle": "Forgot Password",
+  "email": "Email",
+  "password": "Password",
+  "name": "Name",
+  "fullName": "Full Name",
+  "createAccountTitle": "Create Account",
+  "signUpToGetStarted": "Sign up to get started",
+  "enterYourEmail": "Enter your email",
+  "enterYourPassword": "Enter your password",
+  "enterYourFullName": "Enter your full name",
+  "confirmPassword": "Confirm Password",
+  "reEnterPassword": "Re-enter your password",
+  "emailRequired": "Email is required",
+  "invalidEmailFormat": "Invalid email format",
+  "pleaseEnterValidEmail": "Please enter a valid email",
+  "passwordRequired": "Password is required",
+  "passwordMinLength": "Password must be at least 6 characters",
+  "nameRequired": "Name is required",
+  "nameMinLength": "Name must be at least 2 characters",
+  "pleaseConfirmPassword": "Please confirm your password",
+  "passwordsDoNotMatch": "Passwords do not match",
+  "alreadyHaveAccount": "Already have an account? ",
+  "backToLogin": "Back to Login",
+  "resetYourPassword": "Reset Your Password",
+  "enterEmailResetInstructions": "Enter your email address and we'll send you instructions to reset your password.",
+  "checkYourEmail": "Check Your Email",
+  "resetEmailSentDescription": "If an account with that email exists, we've sent instructions to reset your password.",
+  "resetLinkSentSnackbar": "If an account exists, a password reset link will be sent to your email.",
+  "sendResetLink": "Send Reset Link",
+  "tryAnotherEmail": "Try Another Email",
+  "resetPassword": "Reset Password",
+  "createNewPassword": "Create New Password",
+  "enterNewPasswordBelow": "Please enter your new password below.",
+  "newPassword": "New Password",
+  "passwordResetSuccess": "Password reset successfully! Please login with your new password.",
+
+  "dashboard": "Dashboard",
+  "activeBudget": "Active Budget",
+  "noBudgetsYet": "No budgets yet. Create one to get started!",
+  "manageFinances": "Manage Your Finances",
+  "totalIncome": "Total Income",
+  "totalExpense": "Total Expense",
+  "netCashFlow": "Net Cash Flow",
+  "accountsBalance": "Accounts Balance",
+  "period": "Period",
+  "savingsRate": "Savings Rate",
+  "expenseRate": "Expense Rate",
+  "cashFlowStatus": "Cash Flow Status",
+  "positive": "Positive",
+  "negative": "Negative",
+  "financialInsights": "Financial Insights",
+  "failedToLoadDashboard": "Failed to load dashboard",
+  "loadDashboard": "Load Dashboard",
+  "cashflowTrendTitle": "Cash Flow (Last 6 Months)",
+  "expensesByCategory": "Expenses by Category",
+  "dashboardAnalytics": "Dashboard Analytics",
+  "loadDataToView": "Load data to view",
+  "viewActivity": "View activity",
+  "financialOverview": "Financial overview",
+  "noBudgetSelected": "No Budget Selected",
+  "pleaseCreateOrSelectBudget": "Please create or select a budget first.",
+  "summary": "Summary",
+  "cashflow": "Cashflow",
+  "periodLabel": "Period: {period}",
+  "@periodLabel": {
+    "placeholders": {
+      "period": {"type": "String"}
+    }
+  },
+
+  "transactions": "Transactions",
+  "addTransaction": "Add Transaction",
+  "createTransaction": "Create Transaction",
+  "editTransaction": "Edit Transaction",
+  "deleteTransaction": "Delete Transaction",
+  "deleteTransactionConfirm": "Delete this transaction?",
+  "noTransactionsYet": "No transactions yet",
+  "type": "Type",
+  "amount": "Amount",
+  "date": "Date",
+  "description": "Description",
+  "descriptionOptional": "Description (Optional)",
+  "income": "Income",
+  "expense": "Expense",
+  "transfer": "Transfer",
+  "transactionCreated": "Transaction created",
+  "transactionUpdated": "Transaction updated",
+  "transactionDeleted": "Transaction deleted",
+  "undoDelete": "Undo",
+  "invalidNumber": "Invalid number",
+  "mustBeGreaterThanZero": "Must be > 0",
+  "quickEntry": "Quick Entry",
+  "installments": "Installments",
+  "quickAddExpense": "Quick Add Expense",
+  "expenseAddedSuccessfully": "Expense added successfully",
+  "selectBudgetFirst": "Please select a budget first.",
+  "newTransaction": "New Transaction",
+  "saveAsTemplate": "Save as template",
+  "notes": "Notes",
+  "notesOptional": "Notes (Optional)",
+  "reuseThisPatternLater": "Reuse this pattern later",
+  "templates": "Templates",
+  "templateName": "Template Name",
+  "enterTemplateName": "Enter template name",
+  "searchTransactions": "Search transactions...",
+  "closeSearch": "Close Search",
+  "noResultsFor": "No results for \"{query}\"",
+  "@noResultsFor": {
+    "placeholders": {
+      "query": {"type": "String"}
+    }
+  },
+  "noResultsMatchFilters": "No results match the applied filters",
+  "recordNewTransaction": "Record a new transaction",
+  "transactionHistory": "Transaction History",
+  "viewAllTransactions": "See all transactions",
+  "noRecentTransactions": "No recent transactions",
+  "transactionSummary": "Transaction Summary",
+
+  "accounts": "Accounts",
+  "trackAccounts": "Track accounts",
+  "createAccount": "Create Account",
+  "editAccount": "Edit Account",
+  "totalBalance": "Total Balance",
+  "activeAccounts": "Active Accounts",
+  "inactiveAccounts": "Inactive Accounts",
+  "noAccountsYet": "No Accounts Yet",
+  "addAccount": "Add Account",
+  "deleteAccount": "Delete Account",
+  "createFirstAccountDescription": "Create your first account to start\ntracking your finances",
+  "accountName": "Account Name",
+  "accountNameHint": "e.g., Main Checking",
+  "accountNameRequired": "Account name is required",
+  "accountType": "Account Type",
+  "currency": "Currency",
+  "currencyRequired": "Currency is required",
+  "currencyMustBe3Letters": "Currency must be 3 letters (e.g., BRL)",
+  "openingBalance": "Opening Balance",
+  "openingBalanceRequired": "Opening balance is required",
+  "currentBalance": "Current Balance",
+  "balanceChange": "Balance Change",
+  "accountInformation": "Account Information",
+  "accountCreatedSuccessfully": "Account created successfully",
+  "accountUpdatedSuccessfully": "Account updated successfully",
+  "accountDeletedSuccessfully": "Account deleted successfully",
+  "accountDeactivated": "Account deactivated",
+  "accountActivated": "Account activated",
+  "accountNotFound": "Account not found",
+  "deactivate": "Deactivate",
+  "activate": "Activate",
+  "accountDetails": "Account Details",
+  "fromOpening": "from opening",
+  "inactive2ActiveAccounts": "You need at least 2 active accounts to make a transfer",
+
+  "transferMoney": "Transfer Money",
+  "fromAccount": "From Account",
+  "toAccount": "To Account",
+  "selectSourceAccount": "Select source account",
+  "selectDestinationAccount": "Select destination account",
+  "pleaseSelectSourceAccount": "Please select a source account",
+  "pleaseSelectDestinationAccount": "Please select a destination account",
+  "cannotTransferSameAccount": "Cannot transfer to the same account",
+  "amountRequired": "Amount is required",
+  "amountMustBePositive": "Amount must be greater than zero",
+  "transferSummary": "Transfer Summary",
+  "newBalance": "New balance: {currency} {amount}",
+  "@newBalance": {
+    "placeholders": {
+      "currency": {"type": "String"},
+      "amount": {"type": "String"}
+    }
+  },
+  "transferCompletedSuccessfully": "Transfer completed successfully",
+  "transferToAnotherAccount": "Transfer to another account",
+
+  "categories": "Categories",
+  "organizeExpenses": "Organize expenses",
+  "createCategory": "Create Category",
+  "editCategory": "Edit Category",
+  "activeCategories": "Active Categories",
+  "archivedCategories": "Archived Categories",
+  "addCategory": "Add Category",
+  "deleteCategory": "Delete Category",
+  "categoryName": "Category Name",
+  "categoryNameHint": "e.g., Groceries, Salary",
+  "categoryNameRequired": "Category name is required",
+  "categoryType": "Category Type",
+  "parentCategoryOptional": "Parent Category (Optional)",
+  "noneRootCategory": "None (Root category)",
+  "iconOptional": "Icon (Optional)",
+  "iconHint": "e.g., icon emoji",
+  "colorOptional": "Color (Optional)",
+  "colorHint": "#FF0000 or FF0000",
+  "colorHexFormatError": "Color must be in hex format (e.g., #FF0000)",
+  "budgetLimitOptional": "Budget Limit (Optional)",
+  "limitCannotBeNegative": "Limit cannot be negative",
+  "categoryCreatedSuccessfully": "Category created successfully",
+  "categoryUpdatedSuccessfully": "Category updated successfully",
+  "categoryDeletedSuccessfully": "Category deleted successfully",
+  "categoryArchived": "Category archived",
+  "categoryUnarchived": "Category unarchived",
+  "categoryNotFound": "Category not found",
+  "categoryDetails": "Category Details",
+  "categoryInformation": "Category Information",
+  "structure": "Structure",
+  "rootCategory": "Root Category",
+  "subcategory": "Subcategory",
+  "hasSubcategories": "Has Subcategories",
+  "subcategoryOf": "Subcategory of {name}",
+  "@subcategoryOf": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "addSubcategory": "Add Subcategory",
+  "subcategories": "Subcategories",
+  "nSubcategories": "Subcategories ({count})",
+  "@nSubcategories": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "budgetLimit": "Budget Limit",
+  "monthlyLimit": "Monthly Limit",
+  "spentPercent": "{currency} {amount} spent ({percent}%)",
+  "@spentPercent": {
+    "placeholders": {
+      "currency": {"type": "String"},
+      "amount": {"type": "String"},
+      "percent": {"type": "String"}
+    }
+  },
+  "archive": "Archive",
+  "unarchive": "Unarchive",
+  "noCategoriesForType": "No {type} Categories",
+  "@noCategoriesForType": {
+    "placeholders": {
+      "type": {"type": "String"}
+    }
+  },
+  "createFirstCategoryDescription": "Create your first {type}\ncategory to get started",
+  "@createFirstCategoryDescription": {
+    "placeholders": {
+      "type": {"type": "String"}
+    }
+  },
+  "warningHasSubcategories": "Warning: This category has subcategories!",
+  "categorySpendingAnalysis": "Category spending analysis",
+  "viewReports": "View Reports",
+  "viewTransactions": "View Transactions",
+  "createTransactionInCategory": "Create transaction in this category",
+
+  "creditCards": "Credit Cards",
+  "manageCards": "Manage cards",
+  "createCreditCard": "Create Credit Card",
+  "editCreditCard": "Edit Credit Card",
+  "closesDay": "Statement Close Day",
+  "dueDay": "Due Day",
+  "active": "Active",
+  "inactive": "Inactive",
+  "addCard": "Add Card",
+  "addCreditCard": "Add Credit Card",
+  "activeCards": "Active Cards",
+  "inactiveCards": "Inactive Cards",
+  "totalCards": "Total Cards",
+  "creditCardCosts": "Credit Card Costs",
+  "grandTotal": "Grand Total",
+  "costTrend": "Cost Trend",
+  "average": "Average",
+  "noCreditCardsYet": "No Credit Cards Yet",
+  "addFirstCreditCardDescription": "Add your first credit card to start\ntracking your credit expenses",
+  "cardName": "Card Name",
+  "cardNameHint": "e.g., My Visa Card",
+  "cardNameRequired": "Card name is required",
+  "issuerOptional": "Issuer (Optional)",
+  "issuerHint": "e.g., Visa, Mastercard, Amex",
+  "lastFourDigitsOptional": "Last 4 Digits (Optional)",
+  "mustBeExactly4Digits": "Must be exactly 4 digits",
+  "statementCloseDayRequired": "Statement close day is required",
+  "dueDayRequired": "Due day is required",
+  "mustBeBetween1And31": "Must be between 1 and 31",
+  "dayOfMonthStatementCloses": "Day of the month the statement closes",
+  "dayOfMonthPaymentDue": "Day of the month payment is due",
+  "linkedPaymentAccountOptional": "Linked Payment Account (Optional)",
+  "selectAnAccount": "Select an account",
+  "accountToPayBill": "Account to pay the credit card bill",
+  "deleteCreditCard": "Delete Credit Card",
+  "hideInactive": "Hide inactive",
+  "showInactive": "Show inactive",
+  "issuer": "Issuer",
+  "lastFour": "Last Four",
+  "statementClose": "Statement Close",
+  "dueDate": "Due Date",
+  "linkedAccount": "Linked Account",
+  "dayN": "Day {day}",
+  "@dayN": {
+    "placeholders": {
+      "day": {"type": "int"}
+    }
+  },
+
+  "invoices": "Invoices",
+  "invoiceHistory": "Invoice History",
+  "invoiceDetail": "Invoice",
+  "noInvoicesYet": "No Invoices Yet",
+  "invoiceHistoryDescription": "Invoice history will appear here\nonce transactions are recorded.",
+  "noTransactionsForPeriod": "No transactions found for this invoice period.",
+  "noTransactions": "No Transactions",
+  "selectMonthToView": "Select a month to view the invoice.",
+  "previousMonth": "Previous month",
+  "nextMonth": "Next month",
+  "due": "Due: {date}",
+  "@due": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "nTransactionsSuffix": "{count} transaction{suffix}",
+  "@nTransactionsSuffix": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "suffix": {"type": "String"}
+    }
+  },
+
+  "budgets": "Budgets",
+  "manageBudgets": "Manage budgets",
+  "createBudget": "Create Budget",
+  "editBudget": "Edit Budget",
+  "myBudgets": "My Budgets",
+  "newBudget": "New Budget",
+  "goToBudgets": "Go to Budgets",
+  "deleteBudget": "Delete Budget?",
+  "deleteBudgetTitle": "Delete Budget",
+  "budgetDeleted": "Budget deleted",
+  "budgetDeletedSuccessfully": "Budget deleted successfully",
+  "budgetCreatedSuccessfully": "Budget created successfully",
+  "budgetUpdatedSuccessfully": "Budget updated successfully",
+  "members": "Members",
+  "noBudgetsEmptyTitle": "No Budgets Yet",
+  "createFirstBudgetDescription": "Create your first budget to start\ntracking your finances",
+  "deleteConfirmWithName": "Are you sure you want to delete \"{name}\"? This action cannot be undone.",
+  "@deleteConfirmWithName": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "budgetName": "Budget Name",
+  "budgetNameHint": "e.g., Family Budget",
+  "budgetNameRequired": "Budget name is required",
+  "budgetNameMinLength": "Budget name must be at least 2 characters",
+  "budgetNameMaxLength": "Budget name must not exceed 255 characters",
+  "budgetType": "Budget Type",
+  "personalBudget": "Personal Budget",
+  "sharedBudget": "Shared Budget",
+  "personalBudgetDescription": "Only you will have access to this budget",
+  "sharedBudgetDescription": "You can invite others to collaborate on this budget",
+  "budgetDetails": "Budget Details",
+  "budgetNotFound": "Budget not found",
+  "created": "Created",
+  "lastUpdated": "Last Updated",
+  "nMoreMembers": "+{count} more {label}",
+  "@nMoreMembers": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "label": {"type": "String"}
+    }
+  },
+  "quickActions": "Quick Actions",
+  "viewAccounts": "View Accounts",
+  "manageYourAccounts": "Manage your accounts",
+  "viewCategories": "View Categories",
+  "manageYourCategories": "Manage your categories",
+  "viewDashboard": "View Dashboard",
+  "statistics": "Statistics",
+  "cards": "Cards",
+
+  "manageMembers": "Manage Members",
+  "addMember": "Add Member",
+  "membersInfoBanner": "Members can view and edit budget data. Viewers can only view.",
+  "noMembersYet": "No members yet",
+  "addMembersDescription": "Add members to collaborate on this budget",
+  "emailAddress": "Email Address",
+  "emailAddressHint": "user@example.com",
+  "invitationDescription": "The user will receive an invitation to join this budget.",
+  "sendInvitation": "Send Invitation",
+  "memberInvitationComingSoon": "Member invitation feature coming soon",
+  "changeRole": "Change Role",
+  "memberRoleDescription": "Can view and edit budget data",
+  "viewerRoleDescription": "Can only view budget data",
+  "removeMember": "Remove",
+  "removeMemberTitle": "Remove Member",
+  "removeMemberConfirm": "Are you sure you want to remove {name} from this budget?",
+  "@removeMemberConfirm": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "roleUpdated": "{name} role updated to {role}",
+  "@roleUpdated": {
+    "placeholders": {
+      "name": {"type": "String"},
+      "role": {"type": "String"}
+    }
+  },
+  "memberRemoved": "{name} removed from budget",
+  "@memberRemoved": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "joined": "Joined {date}",
+  "@joined": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+
+  "analytics": "Analytics",
+  "detailedInsights": "Detailed insights",
+  "cashflowTrend": "Cash Flow Trend",
+  "categoryBreakdown": "Category Breakdown",
+  "recentTransactions": "Recent Transactions",
+  "viewAll": "View All",
+
+  "monthComparison": "Month Comparison",
+  "lastMonth": "Last Month",
+  "thisMonth": "This Month",
+  "change": "Change",
+
+  "memberSpending": "Member Spending",
+  "memberIncome": "Member Income",
+  "noIncomeData": "No income data",
+  "incomeSources": "Income Sources",
+  "incomeDistribution": "Income Distribution",
+
+  "expenseForecast": "Expense Forecast",
+  "projectedExpense": "Projected Expense",
+  "dailyAverage": "Daily Average",
+  "daysElapsed": "Days Elapsed",
+  "daysRemaining": "Days Remaining",
+  "onTrackToSpend": "On track to spend {percentage}% {comparison} than last month",
+  "@onTrackToSpend": {
+    "placeholders": {
+      "percentage": {"type": "String"},
+      "comparison": {"type": "String"}
+    }
+  },
+  "more": "more",
+  "less": "less",
+
+  "essentialBreakdown": "Essential vs Non-Essential",
+  "essential": "Essential",
+  "nonEssential": "Non-Essential",
+
+  "creditCardAlerts": "Card Alerts",
+  "dueIn": "Due in {days} days",
+  "@dueIn": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "overdue": "Overdue",
+
+  "settings": "Settings",
+  "appearance": "Appearance",
+  "theme": "Theme",
+  "system": "System",
+  "light": "Light",
+  "dark": "Dark",
+  "accessibility": "Accessibility",
+  "reducedCognitiveLoad": "Reduced Cognitive Load",
+  "reducedCognitiveLoadDescription": "Simplifies dashboard by hiding charts",
+  "hapticFeedback": "Haptic Feedback",
+  "hapticFeedbackDescription": "Vibration on actions",
+  "focusMode": "Focus Mode",
+  "focusModeDescription": "Shows one section at a time on dashboard",
+  "language": "Language",
+  "portuguese": "Português (BR)",
+  "english": "English",
+  "replayOnboarding": "Replay Onboarding",
+  "onboardingWillShowNextLogin": "Onboarding will show on next login",
+  "about": "About",
+  "notifications": "Notifications",
+  "app": "App",
+
+  "onboardingWelcome": "Welcome to FinTogether",
+  "onboardingWelcomeDesc": "Manage your finances collaboratively with the ones you love.",
+  "onboardingBudget": "Create a Budget",
+  "onboardingBudgetDesc": "Budgets are the core of the app. Create one to start tracking.",
+  "onboardingTrack": "Track Expenses",
+  "onboardingTrackDesc": "Add transactions quickly and see where your money goes.",
+  "onboardingShare": "Share with Partner",
+  "onboardingShareDesc": "Invite your partner to manage the budget together.",
+  "getStarted": "Get Started",
+  "next": "Next",
+  "skip": "Skip",
+
+  "welcomeUser": "Welcome back, {userName}",
+  "@welcomeUser": {
+    "placeholders": {
+      "userName": {"type": "String"}
+    }
+  },
+
+  "nTransactions": "{count} transactions",
+  "@nTransactions": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "recurringTemplates": "Recurring Templates",
+  "recurringExpenses": "Recurring Expenses",
+  "newTemplate": "New Template",
+  "editTemplate": "Edit Template",
+  "newRecurringExpense": "New Recurring Expense",
+  "createTemplate": "Create Template",
+  "updateTemplate": "Update Template",
+  "templateCreatedSuccessfully": "Template created successfully",
+  "templateUpdatedSuccessfully": "Template updated successfully",
+  "noRecurringExpensesYet": "No recurring expenses yet",
+  "createFirstRecurringDescription": "Create your first recurring template\nto automate regular transactions.",
+  "loadingRecurringExpenses": "Loading recurring expenses...",
+  "fixed": "Fixed",
+  "startDate": "Start Date",
+  "endDate": "End Date",
+  "endDateOptional": "End Date (optional)",
+  "noEndDate": "No end date",
+  "markAsFixedExpense": "Mark as Fixed Expense",
+  "fixedExpenseDescription": "Fixed expenses are essential monthly costs",
+  "creating": "Creating...",
+  "updating": "Updating...",
+
+  "fixedExpenses": "Fixed Expenses",
+  "fixedMonthlyCosts": "Fixed Monthly Costs",
+  "totalMonthlyFixedCosts": "Total Monthly Fixed Costs",
+  "noFixedExpenses": "No fixed expenses",
+  "markRecurringAsFixed": "Mark recurring expenses as \"Fixed\" to see them here.",
+  "nFixedExpenses": "{count} fixed expense{suffix}",
+  "@nFixedExpenses": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "suffix": {"type": "String"}
+    }
+  },
+  "loadingFixedExpenses": "Loading fixed expenses...",
+
+  "installmentGroups": "Installment Groups",
+  "newInstallment": "New Installment",
+  "createInstallment": "Create Installment",
+  "installmentCreatedSuccessfully": "Installment created successfully",
+  "installmentGroupDeleted": "Installment group deleted",
+  "installmentProgress": "Installment Progress",
+  "deleteInstallmentGroup": "Delete Installment Group",
+  "deleteInstallmentGroupConfirm": "Are you sure you want to delete \"{name}\" and all its {count} transactions?",
+  "@deleteInstallmentGroupConfirm": {
+    "placeholders": {
+      "name": {"type": "String"},
+      "count": {"type": "int"}
+    }
+  },
+  "totalAmount": "Total Amount",
+  "numberOfInstallments": "Number of Installments",
+  "nInstallments": "{count} installments",
+  "@nInstallments": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "interestRate": "Interest Rate (per installment)",
+  "interestLabel": "Interest: {rate}%",
+  "@interestLabel": {
+    "placeholders": {
+      "rate": {"type": "String"}
+    }
+  },
+  "mustBeBetween0And100": "Must be between 0 and 100",
+  "paid": "Paid",
+  "remaining": "Remaining",
+  "installmentN": "Installment {number}",
+  "@installmentN": {
+    "placeholders": {
+      "number": {"type": "String"}
+    }
+  },
+  "noInstallmentsYet": "No installments yet",
+  "createFirstInstallmentDescription": "Create your first installment to track\nrecurring payments easily.",
+  "loadingInstallments": "Loading installments...",
+  "loadingInstallmentProgress": "Loading installment progress...",
+  "perMonth": "{amount}/mo",
+  "@perMonth": {
+    "placeholders": {
+      "amount": {"type": "String"}
+    }
+  },
+
+  "savingsGoals": "Savings Goals",
+  "newGoal": "New Goal",
+  "createGoal": "Create Goal",
+  "updateGoal": "Update Goal",
+  "editSavingsGoal": "Edit Savings Goal",
+  "createSavingsGoal": "Create Savings Goal",
+  "savingsGoalCreated": "Savings goal created!",
+  "savingsGoalUpdated": "Savings goal updated!",
+  "savingsGoalDeleted": "Savings goal deleted",
+  "deleteSavingsGoal": "Delete Savings Goal",
+  "noSavingsGoalsYet": "No Savings Goals Yet",
+  "createFirstSavingsDescription": "Create your first savings goal to start\ntracking your progress",
+  "noActiveGoals": "No active goals",
+  "noCompletedGoalsYet": "No completed goals yet",
+  "completed": "Completed",
+  "completedExclamation": "Completed!",
+  "totalSaved": "Total Saved",
+  "progress": "Progress",
+  "goals": "Goals",
+  "current": "Current",
+  "target": "Target",
+  "targetAmount": "Target Amount",
+  "targetAmountRequired": "Target amount is required",
+  "enterValidPositiveAmount": "Enter a valid positive amount",
+  "remainingAmount": "Remaining: {amount}",
+  "@remainingAmount": {
+    "placeholders": {
+      "amount": {"type": "String"}
+    }
+  },
+  "contribute": "Contribute",
+  "withdraw": "Withdraw",
+  "contributionHistory": "Contribution History",
+  "noContributionsYet": "No contributions yet",
+  "deadline": "Deadline",
+  "deadlineOptional": "Deadline (optional)",
+  "noDeadlineSet": "No deadline set",
+  "daysLeft": "{days} days left",
+  "@daysLeft": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "goalNotFound": "Goal not found",
+
+  "merchants": "Merchants",
+  "addMerchant": "Add Merchant",
+  "createMerchant": "Create Merchant",
+  "editMerchant": "Edit Merchant",
+  "merchantName": "Merchant Name",
+  "merchantNameHint": "e.g., Amazon, Walmart",
+  "merchantNameRequired": "Merchant name is required",
+  "displayNameOptional": "Display Name (Optional)",
+  "displayNameHint": "e.g., Amazon Marketplace",
+  "merchantCreatedSuccessfully": "Merchant created successfully",
+  "merchantUpdatedSuccessfully": "Merchant updated successfully",
+  "deleteMerchant": "Delete Merchant",
+  "merchantDetails": "Merchant Details",
+  "merchantInformation": "Merchant Information",
+  "merchantNotFound": "Merchant not found",
+  "noMerchantsYet": "No Merchants Yet",
+  "addMerchantsDescription": "Add merchants to track where\nyou spend your money",
+  "activeMerchants": "Active Merchants",
+  "archivedMerchants": "Archived Merchants",
+  "searchMerchants": "Search merchants...",
+  "defaultCategory": "Default Category",
+
+  "budgetPlan": "Budget Plan",
+  "allocateBudgetPerCategory": "Allocate budget per category",
+  "editAllocations": "Edit Allocations",
+  "saveAllocations": "Save Allocations",
+  "copyLastMonth": "Copy Last Month",
+  "totalAllocated": "Total Allocated",
+  "spent": "Spent",
+  "percentUsed": "{percent}% used",
+  "@percentUsed": {
+    "placeholders": {
+      "percent": {"type": "String"}
+    }
+  },
+  "noAllocations": "No Allocations",
+  "noAllocationsDescription": "No allocations set for this month.\nTap + to create your budget plan.",
+  "allocationsSavedSuccessfully": "Allocations saved successfully",
+  "addAtLeastOneAllocation": "Add at least one allocation",
+  "categoryLimit": "Category limit: R$ {amount}",
+  "@categoryLimit": {
+    "placeholders": {
+      "amount": {"type": "String"}
+    }
+  },
+  "selectMonthToViewBudgetPlan": "Select a month to view your budget plan.",
+
+  "balances": "Balances",
+  "settleUp": "Settle Up",
+  "allSettledUp": "All settled up!",
+  "noOutstandingBalances": "No outstanding balances between members",
+  "splitSettledSuccessfully": "Split settled successfully",
+  "markAsSettled": "Mark as Settled",
+  "settling": "Settling...",
+  "settlePaymentNote": "This marks the debt as settled. The actual payment\nis tracked outside the system.",
+  "balanceDataNotAvailable": "Balance data not available",
+  "lastSynced": "Last synced: {time}",
+  "@lastSynced": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "justNow": "just now",
+  "nMinAgo": "{minutes} min ago",
+  "@nMinAgo": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "nHrAgo": "{hours} hr ago",
+  "@nHrAgo": {
+    "placeholders": {
+      "hours": {"type": "int"}
+    }
+  },
+
+  "morePage": "More",
+  "submitAll": "Submit All",
+  "submitBatch": "Submit Batch",
+  "submitBatchConfirm": "Submit {count} transactions totaling {total}?",
+  "@submitBatchConfirm": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "total": {"type": "String"}
+    }
+  },
+  "submittingTransactions": "Submitting {count} transactions...",
+  "@submittingTransactions": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "nTransactionsCreated": "{count} transactions created",
+  "@nTransactionsCreated": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "nTransactionsFailed": "{count} transactions failed",
+  "@nTransactionsFailed": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "enterAmountFirst": "Enter an amount first",
+  "itemRemoved": "Item removed",
+  "tapCategoryToAdd": "Tap a category to add",
+  "addWithoutCategory": "Add without category",
+
+  "nameMinLengthGeneric": "Name must be at least 2 characters",
+  "nameMaxLengthGeneric": "Name must not exceed 255 characters",
+  "descriptionRequired": "Description is required",
+
+  "createdAt": "Created At",
+  "deleteBudgetConfirm": "Are you sure you want to delete this budget? This action cannot be undone."
+}
